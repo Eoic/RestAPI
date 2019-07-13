@@ -1,0 +1,27 @@
+{
+  "name": "RestAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eoic/RestAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eoic/RestAPI/issues"
+  },
+  "homepage": "https://github.com/Eoic/RestAPI#readme",
+  "dependencies": {
+    "mongoose": "^5.6.4",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.3.3",
+    "restify-errors": "^8.0.0"
+  }
+}
